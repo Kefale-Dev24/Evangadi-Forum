@@ -8,8 +8,8 @@ import Login from "./pages/Login";
 import Layout from "./components/Layout/Layout";
 import AskQuestion from "./components/AskQuestion/AskQuestion";
 import SingleQuestion from "./components/Question/SingleQuestion";
-// import backgroundImage from "./assets/image/evaBG.png";
-import evaBG from "./assets/image/evaBG.png";
+import backgroundImage from "./assets/image/evaBG.png";
+// import evaBG from "./assets/image/evaBG.png";
 import EditQuestionPage from "./components/Question/EditQuestion";
 // import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import EditAnswer from "./components/AnswerForm/EditAnswer";
@@ -41,7 +41,7 @@ function Routing() {
         style={
           applyBackground
             ? {
-                backgroundImage: `url(${evaBG})`,
+                backgroundImage: `url(${backgroundImage})`,
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
                 backgroundAttachment: "fixed",
