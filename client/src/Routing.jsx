@@ -8,7 +8,7 @@ import Login from "./pages/Login";
 import Layout from "./components/Layout/Layout";
 import AskQuestion from "./components/AskQuestion/AskQuestion";
 import SingleQuestion from "./components/Question/SingleQuestion";
-import backgroundImage from "./assets/image/evaBG.png";
+import backgroundImage from "./assets/image/evaBg.png";
 // import evaBG from "./assets/image/evaBG.png";
 import EditQuestionPage from "./components/Question/EditQuestion";
 // import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
