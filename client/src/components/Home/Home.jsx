@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import styles from "./Home.module.css";
+import styles from "./home.module.css";
 import { appState } from "../../App";
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 import profile from "../../assets/image/account.png";
